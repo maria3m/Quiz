@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/question"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/btnJugar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btnjugarshape"
+                android:onClick="btnClick"
+                android:shadowColor="#A8A8A8"
+                android:layout_marginRight="5dp"
+                android:text="JUGAR"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btnReglas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btnreglasshape"
+                android:onClick="btnClick"
+                android:shadowColor="#A8A8A8"
+                android:layout_marginLeft="5dp"
+                android:text="REGLAS"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <Button
+            android:id="@+id/btnTop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btntopshape"
+            android:layout_marginTop="10dp"
+            android:onClick="btnClick"
+            android:shadowColor="#A8A8A8"
+            android:text="TOP 3 PUNTUACIONES"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/btnSalir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btnsalirshape"
+            android:layout_marginTop="10dp"
+            android:shadowColor="#A8A8A8"
+            android:onClick="btnClick"
+            android:text="SALIR"
+            android:textColor="#000000" />
+    </TableLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:textColor="#000000"
+        android:textSize="15dp" />
+
+</LinearLayout>
